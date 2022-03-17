@@ -58,8 +58,23 @@
     justify-content: space-between;
   }
 
+  .login{
+     position: absolute;
+     left: 60%;
+     margin-top: 5%; 
+     width: 30%;
+  }
+
+  .e-mail{
+    margin-top: 5%;
+  
+  }
+  .senha{
+    margin-top: 5%;
+  }
   form {
     
+    margin-top: 2%;
     border: 1px solid black ; 
     border-radius: 5px;
     padding: 10px;
@@ -68,9 +83,69 @@
 
   form input{
 
+
     font-size: 30px;
     border-radius: 5px;
     border: none;
     outline: none;
 
+  }
+  .link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link #esqueceu{
+    color: var(--dark);
+  }
+
+  .button-entrar{
+
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    height: 0px;
+    border-radius: 10px;
+    background-color: #04c35c;
+    color: var(--white300);
+  
+  }
+
+  .button-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 25px;
+    width: 100%;
+    height: 0px;
+    border-radius: 10px;
+    background-color: var(--dark);
+    color: var(--white300);
+    background-image: url(/image/google.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 60px;
+    
+  }
+
+  .button-entrar:hover{
+    cursor: pointer;
+  }
+  .button-login:hover{
+    cursor: pointer;
+  }
+
+  .cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+
+  .cadastro #cad{
+    color: var(--blue);
   }
