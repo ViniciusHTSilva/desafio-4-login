@@ -126,7 +126,7 @@
     border-radius: 10px;
     background-color: var(--dark);
     color: var(--white300);
-    background-image: url(/image/google.png);
+    background-image: url(./image/google.png);
     background-repeat: no-repeat;
     background-size: 50px 50px;
     background-position: 60px;
